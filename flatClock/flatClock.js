@@ -9,7 +9,7 @@ function countDown(c, e, l, o) {
     var i = s[o],
         r = setInterval(function() {
             var l = a.getTime() - t.getTime();
-            if (0 > l) clearInterval(r), alert("Неверная дата!");
+            if (0 > l) clearInterval(r), alert("Хуй");
             else {
                 for (var o = Math.floor(l / 36e5), n = Math.floor(l / 6e4) % 60, s = Math.floor(l / 1e3) % 60, d = document.querySelectorAll(c), u = 0; u < d.length; u++) {
                     var o = '<div class="flat-clock-hours"><div class="flat-clock-digit">' + o + '</div><span class="flat-clock-text">' + i.hour + "</span></div>",
